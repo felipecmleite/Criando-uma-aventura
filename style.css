@@ -1,6 +1,7 @@
 body {
-    background-color: cornsilk;
+    background-color:darkslategray ;
     font-family: "Bai Jamjuree", sans-serif;
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +10,24 @@ body {
 }
 
 button{
-    background-color: bisque;
+    background-color:cadetblue;
+    color: aliceblue;
     font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 50%;
+}
+
+img {
+    max-width: 80%;
 }
